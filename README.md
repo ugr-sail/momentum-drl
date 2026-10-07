@@ -53,7 +53,7 @@ Abre <http://localhost:8080> (contraseña `curso2026`). Lo que hagas queda en la
 <details>
 <summary>Problemas frecuentes</summary>
 
-- **`port is already allocated`:** otro programa usa el puerto 8080. Cambia `-p 8080:8080` por `-p 8888:8080` y abre <http://localhost:8888>.
+- **`port is already allocated`:** otro programa usa el puerto 8080. Cambia `-p 8080:8080` por `-p 8081:8080` y abre <http://localhost:8081>.
 - **`The container name "/momentum-drl" is already in use`:** ya lo creaste antes. Usa `docker start momentum-drl`.
 - **`Cannot connect to the Docker daemon`:** Docker no está en marcha. Abre Docker Desktop y espera a que arranque.
 

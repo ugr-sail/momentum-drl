@@ -1,0 +1,31 @@
+# Estilo de matplotlib con la paleta de MOMENTUM (plantilla de presentaciones)
+# Uso: plt.style.use("momentum.mplstyle")
+
+# Colores de las series: azul, cian, rojo, ámbar, marino, gris azulado
+axes.prop_cycle: cycler("color", ["293B8F", "2FA4E7", "E5484D", "F2B701", "1A375E", "7A8CA8"])
+
+# Textos y ejes en azul marino
+text.color: 1A375E
+axes.labelcolor: 1A375E
+axes.titlecolor: 1A375E
+axes.edgecolor: 1A375E
+xtick.color: 1A375E
+ytick.color: 1A375E
+
+axes.titlesize: large
+axes.titleweight: bold
+axes.titlelocation: left
+axes.titlepad: 12
+
+# Marco ligero con rejilla suave
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.axisbelow: True
+grid.color: E1EAF7
+grid.linewidth: 1
+
+lines.linewidth: 2
+legend.frameon: False
+figure.figsize: 8, 4.5
+figure.facecolor: white

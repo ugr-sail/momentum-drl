@@ -1,3 +1,5 @@
+![MOMENTUM · Python y DRL · SAIL-UGR · Universidad de Granada](workspace/img/banner-curso.jpg)
+
 # MOMENTUM · Python y DRL
 
 Curso práctico de **1 hora** para repasar los fundamentos de Python. Trabajarás con notebooks de Jupyter que combinan explicaciones breves, ejemplos que puedes ejecutar y ejercicios.
@@ -105,3 +107,5 @@ Para practicar por tu cuenta tienes un notebook vacío: [`workspace/plantilla.ip
 Contenido didáctico bajo [CC BY 4.0](LICENSE-CONTENT.md); código y configuración bajo [MIT](LICENSE).
 
 Miguel Molina-Solana · [SAIL-UGR research group](https://github.com/ugr-sail) · Universidad de Granada
+
+![Generación D · Financiado por la Unión Europea (NextGenerationEU) · Ministerio para la Transformación Digital y de la Función Pública · Plan de Recuperación, Transformación y Resiliencia · CSIC · MOMENTUM](workspace/img/financiacion.png)

@@ -15,6 +15,17 @@
         "jupyter.askForKernelRestart": false,
         "notebook.output.textLineLimit": 100,
         "workbench.startupEditor": "readme",
+        // Colores de MOMENTUM en las barras de título y de estado
+        "workbench.colorCustomizations": {
+          "titleBar.activeBackground": "#1A375E",
+          "titleBar.activeForeground": "#FFFFFF",
+          "titleBar.inactiveBackground": "#1A375E",
+          "titleBar.inactiveForeground": "#E1EAF7",
+          "statusBar.background": "#293B8F",
+          "statusBar.foreground": "#FFFFFF",
+          "statusBarItem.remoteBackground": "#1A375E",
+          "statusBarItem.remoteForeground": "#FFFFFF"
+        },
         "workbench.editorAssociations": {
           "*.md": "vscode.markdown.preview.editor"
         },

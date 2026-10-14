@@ -28,7 +28,7 @@ La primera vez descarga la imagen (unos minutos). Cuando termine:
 
 1. Abre <http://localhost:8080> en el navegador.
 2. Introduce la contraseña `curso2026`.
-3. Abre `00_bienvenida.ipynb`. Si te pide un kernel, elige **Python (curso)**.
+3. Abre `00_bienvenida.ipynb`. Si te pide un kernel, elige la opción **Jupyter Kernel** y selecciona **Python (curso)**.
 
 Verás VS Code en el navegador con Python, Jupyter y todas las librerías ya instaladas. Tu trabajo se guarda en el volumen `momentum-drl` y se conserva aunque apagues el ordenador.
 

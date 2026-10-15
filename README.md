@@ -106,6 +106,6 @@ Para practicar por tu cuenta tienes un notebook vacío: [`workspace/plantilla.ip
 
 Contenido didáctico bajo [CC BY 4.0](LICENSE-CONTENT.md); código y configuración bajo [MIT](LICENSE).
 
-Miguel Molina-Solana · [SAIL-UGR research group](https://github.com/ugr-sail) · Universidad de Granada
+Miguel Molina-Solana, Juan Gómez-Romero, Ahmed Brek-Prieto y Antonio Manjavacas-Lucas · [SAIL-UGR research group](https://github.com/ugr-sail) · Universidad de Granada
 
 ![Generación D · Financiado por la Unión Europea (NextGenerationEU) · Ministerio para la Transformación Digital y de la Función Pública · Plan de Recuperación, Transformación y Resiliencia · CSIC · MOMENTUM](workspace/img/financiacion.png)

@@ -1,4 +1,9 @@
+# PyTorch sin CUDA: en Linux evita varios GB de librerías de GPU; en macOS y Windows no cambia nada
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
 ipykernel
+ipywidgets
 jupyter
 numpy
 pandas
@@ -6,3 +11,9 @@ matplotlib
 seaborn
 scikit-learn
 requests
+
+# Bloque de aprendizaje por refuerzo (workspace/rl/)
+gymnasium[classic-control,toy-text]
+stable-baselines3
+tqdm
+rich

@@ -2,9 +2,9 @@
 
 # MOMENTUM · Python y DRL
 
-Curso práctico de **1 hora** para repasar los fundamentos de Python. Trabajarás con notebooks de Jupyter que combinan explicaciones breves, ejemplos que puedes ejecutar y ejercicios.
+Curso práctico para repasar los fundamentos de Python (**1 hora**) y dar tus primeros pasos en aprendizaje por refuerzo (bloque de RL, en [`workspace/rl/`](workspace/rl/)). Trabajarás con notebooks de Jupyter que combinan explicaciones breves, ejemplos que puedes ejecutar y ejercicios.
 
-**Requisitos previos:** ninguno. **Nivel:** inicial.
+**Requisitos previos:** ninguno para los notebooks de Python; los de RL asumen los fundamentos de Python. **Nivel:** inicial.
 
 ## Elige cómo trabajar
 
@@ -24,7 +24,7 @@ Instala [Docker Desktop](https://docs.docker.com/get-docker/) (Windows, macOS) o
 docker run -d --name momentum-drl -p 8080:8080 -v momentum-drl:/home/coder/workspace ghcr.io/ugr-sail/momentum-drl:latest
 ```
 
-La primera vez descarga la imagen (unos minutos). Cuando termine:
+La primera vez descarga la imagen, que incluye PyTorch para CPU (unos minutos). Cuando termine:
 
 1. Abre <http://localhost:8080> en el navegador.
 2. Introduce la contraseña `curso2026`.
@@ -93,7 +93,20 @@ También puedes abrir la carpeta con VS Code (extensiones *Python* y *Jupyter*) 
 | [`03_control_de_flujo`](workspace/03_control_de_flujo.ipynb) | `if`, bucles `for` y `while`, comprensiones | 15 min |
 | [`04_funciones`](workspace/04_funciones.ipynb) | Funciones, errores y módulos | 15 min |
 
-Cada notebook termina con ejercicios. Intenta resolverlos antes de mirar las soluciones en [`workspace/soluciones/`](workspace/soluciones/).
+### Aprendizaje por refuerzo
+
+Los notebooks de [`workspace/rl/`](workspace/rl/) se siguen en orden, se ejecutan en CPU y guardan los agentes entrenados en una carpeta `agentes/`.
+
+| Notebook | Contenido |
+|---|---|
+| [`rl/from-scratch/01_cliffwalking-qlearning`](workspace/rl/from-scratch/01_cliffwalking-qlearning.ipynb) | Q-Learning tabular en `CliffWalking-v1` |
+| [`rl/from-scratch/02_cartpole-dqn`](workspace/rl/from-scratch/02_cartpole-dqn.ipynb) | Deep Q-Learning (DQN) en `CartPole-v1` |
+| [`rl/from-scratch/03_cliffwalking-dqn`](workspace/rl/from-scratch/03_cliffwalking-dqn.ipynb) | El mismo agente DQN en `CliffWalking-v1` |
+| [`rl/from-scratch/04_cartpole-reinforce`](workspace/rl/from-scratch/04_cartpole-reinforce.ipynb) | REINFORCE en `CartPole-v1` |
+| [`rl/stable-baselines/05_cliffwalking-sb3`](workspace/rl/stable-baselines/05_cliffwalking-sb3.ipynb) | DQN con Stable-Baselines3 en `CliffWalking-v1` |
+| [`rl/stable-baselines/06_cartpole-sb3`](workspace/rl/stable-baselines/06_cartpole-sb3.ipynb) | DQN y PPO con Stable-Baselines3 en `CartPole-v1` |
+
+Cada notebook de Python termina con ejercicios. Intenta resolverlos antes de mirar las soluciones en [`workspace/soluciones/`](workspace/soluciones/).
 Para practicar por tu cuenta tienes un notebook vacío: [`workspace/plantilla.ipynb`](workspace/plantilla.ipynb).
 
 ## Cómo trabajar con los notebooks

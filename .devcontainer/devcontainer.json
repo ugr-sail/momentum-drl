@@ -1,0 +1,44 @@
+{
+  // Entorno del curso para VS Code (Dev Containers) y GitHub Codespaces
+  // Autoría: SAIL-UGR research group
+  "name": "MOMENTUM · Python y DRL (by SAIL-UGR research group)",
+  "image": "mcr.microsoft.com/devcontainers/python:3-3.13-trixie",
+  "runArgs": ["--label", "org.opencontainers.image.authors=SAIL-UGR research group"],
+  "postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name curso-python --display-name \"Python (curso)\"",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "jupyter.askForKernelRestart": false,
+        "notebook.output.textLineLimit": 100,
+        "workbench.startupEditor": "readme",
+        // Colores de MOMENTUM en las barras de título y de estado
+        "workbench.colorCustomizations": {
+          "titleBar.activeBackground": "#1A375E",
+          "titleBar.activeForeground": "#FFFFFF",
+          "titleBar.inactiveBackground": "#1A375E",
+          "titleBar.inactiveForeground": "#E1EAF7",
+          "statusBar.background": "#293B8F",
+          "statusBar.foreground": "#FFFFFF",
+          "statusBarItem.remoteBackground": "#1A375E",
+          "statusBarItem.remoteForeground": "#FFFFFF"
+        },
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        },
+        "files.exclude": {
+          "**/__pycache__": true,
+          "**/.ipynb_checkpoints": true
+        }
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "workspace/00_bienvenida.ipynb"
+      ]
+    }
+  }
+}

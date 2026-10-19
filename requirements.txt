@@ -1,0 +1,22 @@
+# Versiones exactas: todo el alumnado tiene el mismo entorno que ha probado la CI.
+# Para actualizarlas, ver «Versiones de las librerías» en docs/MANTENIMIENTO.md
+
+# PyTorch sin CUDA: en Linux evita varios GB de librerías de GPU; en macOS y Windows no cambia nada
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+
+ipykernel==7.4.0
+ipywidgets==8.1.9
+jupyter==1.1.1
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+requests==2.34.2
+
+# Bloque de aprendizaje por refuerzo (workspace/rl/)
+gymnasium[classic-control,toy-text]==1.4.0
+stable-baselines3==2.9.0
+tensorboard==2.21.0
+tqdm==4.70.1

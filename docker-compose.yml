@@ -1,0 +1,12 @@
+# Arranca el curso con la imagen publicada; los notebooks quedan en ./workspace
+#   docker compose up -d      → http://localhost:8080 (contraseña: curso2026)
+services:
+  momentum-drl:
+    image: ghcr.io/ugr-sail/momentum-drl:latest
+    container_name: momentum-drl
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      - PASSWORD=${PASSWORD:-curso2026}
+    volumes:
+      - ./workspace:/home/coder/workspace
